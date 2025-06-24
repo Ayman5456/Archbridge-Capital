@@ -9,4 +9,4 @@ if __name__ == "__main__":
     tenure_months = int(input("Enter tenure (in months): "))
 
     emi = calculate_emi(principal, rate, tenure_months)
-    print(f"Your monthly EMI is: ₹{emi}")
+    print(f"Monthly EMI is: ₹{emi}")
